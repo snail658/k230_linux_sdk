@@ -22,7 +22,7 @@ concurrency:
 jobs:
   build_image:
     name: Build Image
-    runs-on: ubuntu-20.04
+    runs-on: k230_linux_sdk
     timeout-minutes: 45
     container:
       image: ai.b-bug.org:5000/k230_sdk:latest
