@@ -1,10 +1,7 @@
 name: Build_Test
 
 on:
-  pull_request:
-    branches:
-      - main
-      - dev
+  workflow_dispatch:
 
 env:
   DST_BASE: /data1/k230/github-actions/k230_linux_sdk
