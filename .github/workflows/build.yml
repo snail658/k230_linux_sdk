@@ -30,7 +30,7 @@ jobs:
     container:
       image: ai.b-bug.org:5000/k230_sdk:latest
       env:
-        CONF: ${{ matrix.hw_type }}_${{ matrix.hw_model }}_defconfig
+        CONF: ${{ matrix.hw_type }}_${{ matrix.hw_model }}_lckfb_defconfig
       volumes:
         - /data:/data
         - /data1:/data1
